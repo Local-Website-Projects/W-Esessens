@@ -1,0 +1,19 @@
+RewriteEngine On
+
+# Rewrite rule for "home"
+RewriteRule ^Home$ index.php [L]
+
+RewriteRule ^Shop$ shop.php [L]
+
+RewriteRule ^About-Us$ about.php [L]
+
+RewriteRule ^Contact-Us$ contact.php [L]
+
+RewriteRule ^Product-Details$ productdetails.php [L]
+
+RewriteRule ^Cart$ shoppingcart.php [L]
+
+RewriteRule ^Checkout$ checkout.php [L]
+
+RewriteRule ^Login$ login.php [L]
+

@@ -1,6 +1,12 @@
 
+@font-face {
+	font-family: logoFont;
+	src: url('../fonts/Lerum-Stencil.otf');
+}
+
 body {
-	font-family: 'Jost', sans-serif;
+	/*font-family: 'logoFont', sans-serif;*/
+	font-family: 'logoFont' !important;
 	font-size: 16px;
 	line-height: 26px;
 	color: #666;
@@ -143,7 +149,7 @@ option {
 	-moz-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
-	font-family: 'Jost', sans-serif;
+	font-family: 'logoFont', sans-serif;
 	line-height: 24px;
 	border-radius: 30px;
 	text-transform: uppercase;
@@ -1578,7 +1584,7 @@ table tr:last-child td, table tr:last-child th {
 }
 .block-minicart .shopcart-icon {
 	font-size: 14px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	color: #555555;
 	position: relative;
 	text-transform: uppercase;
@@ -1806,7 +1812,7 @@ table tr:last-child td, table tr:last-child th {
 	cursor: pointer;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	letter-spacing: 0.05em;
 	color: #000;
 }
@@ -2153,7 +2159,7 @@ blockquote .author .desc {
 	font-size: 12px;
 	color: #000;
 	overflow: hidden;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	text-transform: uppercase;
 }
 .stelina-blog-item .readmore::before {
@@ -2564,7 +2570,7 @@ blockquote .author .desc {
 	min-width: 50px;
 	border-radius: 50%;
 	margin-bottom: 7px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	font-weight: 600;
 	margin-right: 10px;
 	position: relative;
@@ -3596,7 +3602,7 @@ blockquote .author .desc {
 }
 .widget .widgettitle {
 	font-size: 14px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	text-transform: uppercase;
 	font-weight: 600;
 	padding-bottom: 25px;
@@ -4990,7 +4996,7 @@ ul.list-products {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .stelina-iconbox.layout1 .content .title {
 	color: #222;
@@ -5023,7 +5029,7 @@ ul.list-products {
 	font-size: 15px;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	color: #222;
 	margin-top: 20px;
 	margin-bottom: 3px;
@@ -5565,7 +5571,7 @@ ul.list-products {
 	text-transform: uppercase;
 	font-weight: 600;
 	border-radius: 0;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	font-size: 12px;
 }
 .attribute_size .list-size a.active, .attribute_size .list-size a:hover {
@@ -5645,7 +5651,7 @@ ul.list-products {
 	color: #bbb;
 	position: relative;
 	text-transform: uppercase;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .tab-details-product .tab-link li.active a::after {
 	height: 3px;
@@ -5854,7 +5860,7 @@ ul.list-products {
 	padding: 0;
 	text-transform: uppercase;
 	margin-bottom: 12px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .slider-item.slick-active .title-small {
 	animation-duration: 2s;
@@ -5935,7 +5941,7 @@ ul.list-products {
 	-webkit-animation-fill-mode: both;
 	animation-name: bounceInUp;
 	-webkit-animation-name: bounceInUp;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .slider-item .slider-infor .button:last-child {
 	margin-right: 0;
@@ -6065,7 +6071,7 @@ ul.list-products {
 }
 .stelina-tabs .tab-link li a {
 	margin: 0 20px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	font-size: 18px;
 	font-weight: 500;
 	position: relative;
@@ -6097,7 +6103,7 @@ ul.list-products {
 	display: table;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 	padding-bottom: 15px;
 }
 .custommenu-title-blog::before {
@@ -8390,7 +8396,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 	padding: 0 0 5px;
 	margin-bottom: 0;
 	text-transform: uppercase;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .item-banner.style1 .stelina-subtitle {
 	margin-bottom: 9px;
@@ -9164,7 +9170,7 @@ iframe {
 	position: relative;
 	margin-top: 10px;
 	text-transform: uppercase;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .footer {
 	text-align: center;
@@ -9194,7 +9200,7 @@ iframe {
 	margin-bottom: 15px;
 	position: relative;
 	margin-top: 11px;
-	font-family: 'Jost';
+	font-family: 'logoFont';
 }
 .stelina-newsletter.style1 .list {
 	margin-bottom: 20px;
