@@ -6410,7 +6410,7 @@ ul.list-products {
 	margin-top: 0;
 }
 .top-bar .header-language .stelina-language::after {
-	content: '|';
+	content: '';
 }
 .top-bar .header-user-links a {
 	line-height: 48px;

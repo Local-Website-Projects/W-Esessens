@@ -1,4 +1,4 @@
-<div class="footer-device-mobile">
+<!--<div class="footer-device-mobile">
     <div class="wapper">
         <div class="footer-device-mobile-item device-home">
             <a href="index-2.html">
@@ -36,4 +36,4 @@
             </a>
         </div>
     </div>
-</div>
+</div>-->

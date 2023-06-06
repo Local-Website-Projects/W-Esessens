@@ -1,0 +1,99 @@
+ErrorDocument 404 https://wayshk.ngt.hk/admin/404.php
+
+RewriteEngine on
+
+RewriteRule ^Login index.php [NE,L]
+
+RewriteRule ^Logout logout.php [NE,L]
+
+RewriteRule ^Dashboard dashboard.php [NE,L]
+
+RewriteRule ^Banner home_banner.php [NE,L]
+
+RewriteRule ^Product\-Analysis productAnalysis.php [NE,L]
+
+RewriteRule ^Business-Analysis businessAnalysis.php [NE,L]
+
+RewriteRule ^Store\-Analysis storeAnalysis.php [NE,L]
+
+RewriteRule ^Product\-Report product-report.php [NE,L]
+
+RewriteRule ^Add-Category addCategory.php [NE,L]
+
+RewriteRule ^Category category.php [NE,L]
+
+RewriteRule ^Add-Store addStore.php [NE,L]
+
+RewriteRule ^Store store.php [NE,L]
+
+RewriteRule ^Add-Product addProduct.php [NE,L]
+
+RewriteRule ^Product product.php [NE,L]
+
+RewriteRule ^Add-Course addCourse.php [NE,L]
+
+RewriteRule ^Course course.php [NE,L]
+
+RewriteRule ^Add-Promo-Code addPromoCode.php [NE,L]
+
+RewriteRule ^Promo-Code promoCode.php [NE,L]
+
+RewriteRule ^Pending-Order pendingOrder.php [NE,L]
+
+RewriteRule ^Confirm-Order confirmOrder.php [NE,L]
+
+RewriteRule ^Customer customer.php [NE,L]
+
+RewriteRule ^Add-Admin addAdmin.php [NE,L]
+
+RewriteRule ^Admin admin.php [NE,L]
+
+RewriteRule ^Profile profile.php [NE,L]
+
+RewriteRule ^Insert insert.php [NE,L]
+
+RewriteRule ^Update\-Files update_files.php [NE,L]
+
+RewriteRule ^Update update.php [NE,L]
+
+RewriteRule ^Delete delete.php [NE,L]
+
+RewriteRule ^Add-Stock addStock.php [NE,L]
+
+RewriteRule ^Stock stock.php [NE,L]
+
+RewriteRule ^Review review.php [NE,L]
+
+RewriteRule ^Profit-Loss profit_loss_report.php [NE,L]
+
+RewriteRule ^Delivery-Charges delivery_charges.php [NE,L]
+
+RewriteRule ^Order-Details order_details.php [NE,L]
+
+RewriteRule ^Add-Textbook add_textbook.php [NE,L]
+
+RewriteRule ^Textbook textbook.php [NE,L]
+
+RewriteRule ^Invoice invoice.php [NE,L]
+
+RewriteRule ^Add-Book-Keeping add_bookkeeping.php [NE,L]
+
+RewriteRule ^Book-Keeping-Report report_bookkeeping.php [NE,L]
+
+RewriteRule ^Book-Keeping bookkeeping.php [NE,L]
+
+RewriteRule ^Report_Print-Book report_print_bookkeeping.php [NE,L]
+
+RewriteRule ^Add-Defected-Products add_defected.php [NE,L]
+
+RewriteRule ^Defected-Products-List defected_list.php [NE,L]
+
+RewriteRule ^Print-Receipt print_receipt.php [NE,L]
+
+RewriteRule ^Cash-Capital cash_flow.php [NE,L]
+
+RewriteRule ^Bank-Interest bank_interest.php [NE,L]
+
+RewriteRule ^Add-Quotation add_quotation.php [NE,L]
+
+RewriteRule ^View-Quotation quotation.php [NE,L]
